@@ -1,10 +1,19 @@
-# serilog-sinks-fluentd
-A Sink that writes logs into Fluentd
+# custom-serilog-sinks-fluentd
+Forked [serilog-sinks-fluentd v0.4.0](https://github.com/borisermakof/serilog-sinks-fluentd) for bugfixes.
+
+* [#22 ❌This lib causes memory leaks. DO NOT USE IT.](https://github.com/borisermakof/serilog-sinks-fluentd/issues/22)
+* CPU Usage 100% for a while after massive log outputed.
+
+Note: If original serilog-sinks-fluentd fixed those problems, this repository will be deleted.
 
 ## Installation
-This sink is distributed via NuGet package. Install it by running
+This sink is distributed via GitHub Package.
+[Add GitHub Packages registry to nuget source for your project](https://docs.github.com/en/packages/working-with-a-github-packages-registry/working-with-the-nuget-registry#installing-a-package).  
+(We recommend use `nuget.config` in the solution folder.)
+
+Install it by running
 ```
-Install-Package Serilog.Sinks.Fluentd
+dotnet add PROJECT package Liona.Serilog.Sinks.Fluentd
 ``` 
 
 ## Usage
