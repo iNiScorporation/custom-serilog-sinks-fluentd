@@ -4,7 +4,9 @@ Forked [serilog-sinks-fluentd v0.4.0](https://github.com/borisermakof/serilog-si
 * [#22 ❌This lib causes memory leaks. DO NOT USE IT.](https://github.com/borisermakof/serilog-sinks-fluentd/issues/22)
 * CPU Usage 100% for a while after massive log outputed.
 
-Note: If original serilog-sinks-fluentd fixed those problems, this repository will be deleted.
+WARNING: This repository was deprecated because new forked serilog-sinks-fluentd that merged our fix was already released.
+Please use [klyse/serilog-sinks-fluentd](https://github.com/klyse/serilog-sinks-fluentd) instead.
+This repository will be deleted sometime.
 
 ## Installation
 This sink is distributed via GitHub Package.
